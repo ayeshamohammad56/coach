@@ -1,1 +1,13 @@
-sql developer
+
+import java.util.Arrays;
+class Main
+{
+public static void main(String args[])
+{
+ int []a=new int[]{7,4,3,2,5,6,1};
+ int search=8;
+ Arrays.sort(a);
+  System.out.println(Arrays.binarySearch(a,search));
+System.out.println(Arrays.toString(a));
+}
+}
